@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("images/album-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: hsl(322, 84%, 32%);
+  margin: 0;
+  padding: 0;
+}
+
+.player-container {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  background: hsla(199, 86%, 33%, 0.851); /* Slightly transparent */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.album-img {
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.search-filter {
+  margin-bottom: 15px;
+}
+
+input[type="text"], select {
+  padding: 10px;
+  margin: 10px;
+}
+
+.playlist {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.playlist ul {
+  list-style: none;
+  padding: 0;
+}
+
+.playlist li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid hsl(228, 83%, 26%);
+}
+
+.playlist li:hover {
+  background: #199cbd;
+}
+
+.controls button {
+  background: #a50879;
+  border: none;
+  color: hwb(199 5% 45%);
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background: #0279a4;
+}
+
+.controls input[type="range"] {
+  width: 400px;
+  vertical-align: middle;
+}
